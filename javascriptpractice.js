@@ -5,4 +5,10 @@ undefined, BigInt and symbol. Reference: Object, array and function.  */
 
 // Object is a collection of properties. Where each property is defined as a key-value pair. 
 
-let person = {}; 
+let person = {
+  firstName: 'Elon',
+  lastName: 'Musk',
+  age : 35
+}; 
+
+console.log(person); 
