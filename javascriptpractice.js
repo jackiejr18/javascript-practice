@@ -1,5 +1,4 @@
-alert('Welcome to GreatStack'); 
-
+document.write('Welcome to GreatStack'); 
 
 
 
