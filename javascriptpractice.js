@@ -1,12 +1,14 @@
 /* There are two types of data in javascript. Primitive and reference. Primitive: string, number, boolean, null,
 undefined, BigInt and symbol. Reference: Object, array and function.  */ 
 
-// Function data types
+// JavaScript is a dynamically typed language.
 
-// functions are a type of object that can be used to execute code 
+// So we can store different data-type in the same variable. 
 
-function msg() {
-  console.log('Hello, GreatStack');
-}
+let x;
 
-console.log(typeof msg); 
+console.log(typeof x);
+
+x = 'GreatStack'; 
+
+console.log(typeof x); 
