@@ -2,16 +2,8 @@
 
 //Assignment operators are used to assign values to variables. 
 
-let x = 5; 
+let x = 10; 
 
-x -= 3; 
-
-console.log(x); 
-
-x *= 2; 
-
-console.log(x); 
-
-x /= 2; 
+x %= 3; 
 
 console.log(x); 
