@@ -1,8 +1,9 @@
-// Arithmetic Operators
+// Assignment operators
 
-// Arithmetic operators are used to perform mathematical operations on operands.
+//Assignment operators are used to assign values to variables. 
 
-// exponentiation
+let x = 5; 
 
-let x = 2 ** 4; 
-console.log(x);
+x += 3; 
+
+console.log(x); 
