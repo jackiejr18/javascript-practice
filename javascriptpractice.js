@@ -2,15 +2,18 @@
 of scope: global scope, function scope, and block scope.  */ 
 
 
-/* Function scope is created when a function is declared. Variables and functions declared in a function's scope are
-only visible  within that function.*/
+/* Block scope in javascript refers to visibility of variables and functions within a block of code. A block of 
+code is a group of statements that are enclosed in curly braces ({}). Variables and functions declared in a block's 
+scope are only visible within that block  */
 
 function example() {
-  var fs = 'Hello, GreatStack';
+  if (true) {
+    let bv = 'GreatStack';
+    console.log(bv);
+  }
 
-  console.log(fs); 
 }
 
 example();
 
-console.log(fs);
+console.log(bv);
