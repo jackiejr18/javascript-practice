@@ -2,7 +2,7 @@
 
 // Arithmetic operators are used to perform mathematical operations on operands.
 
-// Addition
+// subtraction 
 
-let sum = 5 + 3; 
-console.log(sum);
+let x = 5 - 3; 
+console.log(x);
