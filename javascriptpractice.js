@@ -1,11 +1,8 @@
 /* There are two types of data in javascript. Primitive and reference. Primitive: string, number, boolean, null,
 undefined, BigInt and symbol. Reference: Object, array and function.  */ 
 
-//Boolean Data Types
+// Object
 
-//The boolean type has two values: true and false. 
+// Object is a collection of properties. Where each property is defined as a key-value pair. 
 
-let learning = true; 
-let completed = false;
-
-console.log(typeof learning); 
+let person = {}; 
