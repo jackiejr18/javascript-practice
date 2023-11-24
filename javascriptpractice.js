@@ -12,3 +12,5 @@ function example() {
 }
 
 example(); 
+
+console.log(x);
