@@ -2,7 +2,7 @@
 
 // Arithmetic operators are used to perform mathematical operations on operands.
 
-// modulus
+// exponentiation
 
-let x = 17 % 4; 
+let x = 2 ** 4; 
 console.log(x);
