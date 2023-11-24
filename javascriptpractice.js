@@ -1,14 +1,7 @@
-/* There are two types of data in javascript. Primitive and reference. Primitive: string, number, boolean, null,
-undefined, BigInt and symbol. Reference: Object, array and function.  */ 
+// Operators in JavaScript
 
-// JavaScript is a dynamically typed language.
+// Operators in Javascript are symbols
 
-// So we can store different data-type in the same variable. 
+// That are used to perform operations on operands. 
 
-let x;
-
-console.log(typeof x);
-
-x = 'GreatStack'; 
-
-console.log(typeof x); 
+// operands are the values and variables
