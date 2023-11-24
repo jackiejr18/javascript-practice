@@ -2,7 +2,7 @@
 
 // Arithmetic operators are used to perform mathematical operations on operands.
 
-// subtraction 
+// multiplication
 
-let x = 5 - 3; 
+let x = 5 * 3; 
 console.log(x);
