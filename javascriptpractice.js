@@ -1,13 +1,7 @@
-/* let keyword in javascript is used to declare a block-scoped variable. This means that the varibale is only visible
-within the block which it is declared. */ 
+/* The const keyword in javascript is used to declare a constant variable. This means that the variable cannot
+be reassigned to a new value. */ 
 
-let x = 10;
+const a = 4; 
+console.log(a);
 
-if(x > 5) {
-  let y = 20;
-  console.log(y); 
-}
-
-console.log(y);
-
-
+a = 5; 
