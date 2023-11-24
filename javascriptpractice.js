@@ -1,8 +1,8 @@
-// Operators in JavaScript
-
 // Arithmetic Operators
-// Assignment Operators
-// Comparison Operators
-// Logical Operators
-// String operators
 
+// Arithmetic operators are used to perform mathematical operations on operands.
+
+// Addition
+
+let sum = 5 + 3; 
+console.log(sum);
