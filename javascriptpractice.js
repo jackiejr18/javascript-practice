@@ -1,14 +1,11 @@
 /* There are two types of data in javascript. Primitive and reference. Primitive: string, number, boolean, null,
 undefined, BigInt and symbol. Reference: Object, array and function.  */ 
 
-// Object
+// Array
 
-// Object is a collection of properties. Where each property is defined as a key-value pair. 
+// arrays are a type of object that stores a collection of values. 
 
-let person = {
-  firstName: 'Elon',
-  lastName: 'Musk',
-  age : 35
-}; 
+let number = [1,2,3,4,5]; 
 
-console.log(person); 
+console.log(number); 
+console.log(typeof number); 
