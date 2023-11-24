@@ -1,12 +1,14 @@
 /* There are two types of data in javascript. Primitive and reference. Primitive: string, number, boolean, null,
 undefined, BigInt and symbol. Reference: Object, array and function.  */ 
 
-// A string is a sequence of zero or more characters.
+// Number data types
 
-// A string starts and ends with either a single quote (') or double ("). 
+// number represents integer and floating-point numbers. 
 
-// Javascript strings are for storing and manipulating text.
+let x = '10';
 
-let firstName = 'Elon'; 
+let y = 12; 
 
-let lastName = 'Musk'; 
+console.log(typeof x); 
+
+console.log(typeof y); 
