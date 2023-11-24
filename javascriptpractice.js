@@ -1,7 +1,8 @@
 // Operators in JavaScript
 
-// Operators in Javascript are symbols
+// Arithmetic Operators
+// Assignment Operators
+// Comparison Operators
+// Logical Operators
+// String operators
 
-// That are used to perform operations on operands. 
-
-// operands are the values and variables
