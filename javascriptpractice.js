@@ -2,15 +2,15 @@
 of scope: global scope, function scope, and block scope.  */ 
 
 
-/* Global scope is the outermost scope. Variables and functions declared in the global scope are visible from
-anywhere in the program. */
-
-var x = 'hello, GreatStack';
+/* Function scope is created when a function is declared. Variables and functions declared in a function's scope are
+only visible  within that function.*/
 
 function example() {
-  console.log(x); 
+  var fs = 'Hello, GreatStack';
+
+  console.log(fs); 
 }
 
-example(); 
+example();
 
-console.log(x);
+console.log(fs);
