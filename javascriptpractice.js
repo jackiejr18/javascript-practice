@@ -1,15 +1,8 @@
 // Comparison operators
 
-let a = 10;
+let a = '10';
 let b = 20;
 
-console.log(a < b);
-console.log(a > b);
-console.log(a <= b);
-console.log(a >= b);
-
-console.log(a == b);
-console.log(a != b);
 
 console.log(a === b);
 console.log(a !== b);
