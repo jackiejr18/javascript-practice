@@ -1,16 +1,21 @@
-// Increment / Decrement operators 
+// Comparison operators
 
-/* The increment and decrement operators are used to increase or decrease the value of a variable by 1*/ 
+// Comparison operators compare two values and give back a boolean value: either true or false. 
 
-// the increment operator is ++
-// the decrement operator is -- 
+// Comparison operators are useful in decision making and loop programs in javaScript. 
 
-// can be used prefix and postfix
+/*
 
-let a = 10;
+< (less than)
+> (greater than)
+<= (less than or equal to)
+>= (greater than or equal to)
 
-console.log(a--); 
-console.log(a);
+==(equal checks)
+!=(inequality) (not equal) (flipped valueof equal checks)
 
-/* in this example operator is placed after the variable, and the value of the variable is logged before it
-is decremented */ 
+=== (strict equality checks) (checks the data type)
+
+!== (strict inequality) (!==) (flipped value strict equality check) 
+
+*/ 
