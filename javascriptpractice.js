@@ -4,3 +4,9 @@
 
 // the increment operator is ++
 // the decrement operator is -- 
+
+// can be used prefix and postfix
+
+let a = 10;
+
+console.log(++a); 
