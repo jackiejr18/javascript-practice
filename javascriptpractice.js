@@ -2,8 +2,14 @@
 
 // Operator associativity in javascript defines the order in which operators of the same precedence are evaluated
 
-// Left-to-right
+// right-to-left
 
-let result = 4 - 2 - 1; 
+// In right-to-left associativity operators are evaluated from right to left. 
+
+let result = 2 ** 3 ** 2; 
 
 console.log(result);
+
+// 3 ** 2 = 9
+// 2 ** 9 = 512
+
