@@ -9,8 +9,8 @@
 
 let a = 10;
 
-console.log(++a); 
+console.log(--a); 
 console.log(a);
 
-/* in this example operator is placed before the variable, and the value of the variable is incremented before it
+/* in this example operator is placed before the variable, and the value of the variable is decremented before it
 is used */ 
