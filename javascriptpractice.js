@@ -1,8 +1,10 @@
-// Comparison operators
+// Logical Operator
 
-let a = '10';
-let b = 10;
+/* logical operators perform logical operations like:
 
-console.log(a == b); 
-console.log(a === b);
-console.log(a !== b);
+AND (&&),
+OR (||),
+NOT (!).
+
+*/ 
+
