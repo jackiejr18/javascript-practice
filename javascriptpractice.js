@@ -1,20 +1,9 @@
-// Logical Operator OR (||)
+// Logical NOT (!)
 
-/* 
+//Converts operator to boolean and returns flipped value
 
-Returns true even if one of the mulltiple operands is true
+let Yes = true;
+let No = false;
+console.log(!Yes);
+console.log(!No);
 
-true || true // true
-true || false // true
-false || true // true
-false || false // false 
-
-*/ 
-
-let a = 5;
-let b = 10;
-
-console.log(a > 0 || b > 0);
-console.log(a > 0 || b < 0);
-console.log(a < 0 || b > 0);
-console.log(a < 0 || b < 0);
