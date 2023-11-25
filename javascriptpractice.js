@@ -1,9 +1,11 @@
-// Logical NOT (!)
+// JavaScript string operators 
 
-//Converts operator to boolean and returns flipped value
+// In javaScript, you can also use the + operator to concatenate (join) two or more strings. 
 
-let Yes = true;
-let No = false;
-console.log(!Yes);
-console.log(!No);
+console.log('hello' + ' world'); 
 
+let a = 'JavaScript'; 
+
+a += ' tutorial';
+
+console.log(a);
