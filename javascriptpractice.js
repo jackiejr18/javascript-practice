@@ -1,7 +1,6 @@
-// Operator Precedence
+// Operator Associativity
 
-// Operator precedence determines the order in which operators are parsed concerning each other. 
+// Operator associativity in javascript defines the order in which operators of the same precedence are evaluated
 
-let result = 2 + 3 * 4;
-
-console.log(result);
+// Left-to-right
+// Right-to-left
