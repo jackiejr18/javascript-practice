@@ -1,10 +1,20 @@
-// Logical Operator
+// Logical Operator AND (&&)
 
-/* logical operators perform logical operations like:
+/* 
 
-AND (&&),
-OR (||),
-NOT (!).
+Evaluates operands and return true only if all are true
+
+true && true // true
+true && false // false
+false && true // false
+false && false // false 
 
 */ 
 
+let x = 5;
+let y = 10;
+
+console.log(x > 0 && y > 0);
+console.log(x > 0 && y < 0);
+console.log(x < 0 && y > 0);
+console.log(x < 0 && y < 0);
