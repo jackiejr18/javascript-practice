@@ -1,11 +1,7 @@
-// JavaScript string operators 
+// Operator Precedence
 
-// In javaScript, you can also use the + operator to concatenate (join) two or more strings. 
+// Operator precedence determines the order in which operators are parsed concerning each other. 
 
-console.log('hello' + ' world'); 
+let result = 2 + 3 * 4;
 
-let a = 'JavaScript'; 
-
-a += ' tutorial';
-
-console.log(a);
+console.log(result);
