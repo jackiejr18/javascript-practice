@@ -1,9 +1,6 @@
-// Assignment operators
+// Increment / Decrement operators 
 
-//Assignment operators are used to assign values to variables. 
+/* The increment and decrement operators are used to increase or decrease the value of a variable by 1*/ 
 
-let x = 10; 
-
-x **= 3; 
-
-console.log(x); 
+// the increment operator is ++
+// the decrement operator is -- 
