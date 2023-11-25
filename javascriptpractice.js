@@ -1,20 +1,20 @@
-// Logical Operator AND (&&)
+// Logical Operator OR (||)
 
 /* 
 
-Evaluates operands and return true only if all are true
+Returns true even if one of the mulltiple operands is true
 
-true && true // true
-true && false // false
-false && true // false
-false && false // false 
+true || true // true
+true || false // true
+false || true // true
+false || false // false 
 
 */ 
 
-let x = 5;
-let y = 10;
+let a = 5;
+let b = 10;
 
-console.log(x > 0 && y > 0);
-console.log(x > 0 && y < 0);
-console.log(x < 0 && y > 0);
-console.log(x < 0 && y < 0);
+console.log(a > 0 || b > 0);
+console.log(a > 0 || b < 0);
+console.log(a < 0 || b > 0);
+console.log(a < 0 || b < 0);
