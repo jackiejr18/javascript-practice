@@ -4,17 +4,13 @@
 
 //for lop 
 
-/*
-
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i <= 4; i++) {
   console.log(i);
+
+  for (let j = 1; j <= 3; j++) {
+    console.log('Inner loop' + j);
+  }
 }
 
-*/
 
-let coding = ['JavaScript', 'Python', 'CPP']
 
-for (let i = 0; i < coding.length; i++) {
-  console.log(coding[i]);
-  
-}
