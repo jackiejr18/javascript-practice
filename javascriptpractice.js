@@ -1,7 +1,9 @@
 // Conditional Statements
 
-//conditional statements are used to execute different actions based on different conditions
+if(true) {
+  console.log('execute');
+}
 
-// if statement,
-// else statement
-// else if statement 
+if(false) {
+  console.log('execute');
+}
