@@ -1,20 +1,9 @@
-// Conditional Statements
+// In programming, loops are used to repeat a block of code
 
-//Ternary operator
+// if you want to display a message 100 times, then you can use a loop
 
-/* let age = 20;
-if(age >= 18) {
-  console.log('You are an adult.');
+//for lop 
+
+for (let i = 0; i < array.length; i++) {
+  // code to be repeated
 }
-else {
-  console.log('You are a minor.')
-} 
-
-*/ 
-
-// condition ? value_if_true : value_if_false
-
-let age = 20;
-let msg = (age >= 18) ? 'You are an adult' : 'You are a minor.'; 
-
-console.log(msg);
