@@ -1,9 +1,8 @@
 // Conditional Statements
 
-if(true) {
-  console.log('execute');
-}
 
-if(false) {
-  console.log('execute');
+let age = 20;
+
+if(age > 18) {
+  console.log('You are an adult.');
 }
