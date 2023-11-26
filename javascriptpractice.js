@@ -4,6 +4,6 @@
 
 //for lop 
 
-for (let i = 0; i < array.length; i++) {
-  // code to be repeated
+for (let i = 0; i < 10; i++) {
+  console.log('GreatStack');
 }
