@@ -5,5 +5,5 @@
 //for lop 
 
 for (let i = 0; i < 10; i++) {
-  console.log('GreatStack');
+  console.log(i);
 }
