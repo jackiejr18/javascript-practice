@@ -1,15 +1,26 @@
 // Conditional Statements
 
-// else if
+// switch
 
-let age = 17;
+/* the switch statement in javascript is a conditional statement that is used to execute a block of code based on 
+the value of expression. */ 
 
-if(age > 18) {
-  console.log('You are an adult.')
-}
-else if (age >= 16) {
-  console.log('You are a teeneager.');
-}
-else {
-  console.log('You are a minor.');
+let value = 42;
+
+switch (typeof value) {
+  case 'number':
+    console.log('Number');
+    break;
+
+  case 'string':
+    console.log('string');
+    break;
+
+  case 'boolean':
+    console.log('boolean');
+    break;
+
+  default:
+    console.log('other');
+    break;
 }
