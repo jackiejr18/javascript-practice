@@ -4,9 +4,12 @@
 
 //do while loop
 
+let i = 1;
+
 do {
-  // code to be repeated
-} while (condition);
+  console.log(i);
+  i++; 
+} while (i <= 5);
 
 
 
