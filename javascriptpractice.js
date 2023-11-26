@@ -4,7 +4,7 @@
 
 //do while loop
 
-let i = 1;
+let i = 10;
 
 do {
   console.log(i);
