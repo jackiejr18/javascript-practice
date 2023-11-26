@@ -2,15 +2,14 @@
 
 // if you want to display a message 100 times, then you can use a loop
 
-//while loop
+//do while loop
 
-let i = 0; 
+do {
+  // code to be repeated
+} while (condition);
 
 
-while (i <= 10) {
-  console.log(i);
-  i++;
-}
+
 
 
 
