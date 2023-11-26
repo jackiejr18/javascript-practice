@@ -4,6 +4,17 @@
 
 //for lop 
 
+/*
+
 for (let i = 0; i < 10; i++) {
   console.log(i);
+}
+
+*/
+
+let coding = ['JavaScript', 'Python', 'CPP']
+
+for (let i = 0; i < coding.length; i++) {
+  console.log(coding[i]);
+  
 }
