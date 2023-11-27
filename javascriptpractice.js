@@ -2,13 +2,12 @@
 
 // A recursive function in JavaScript is a function that calls itself 
 
-function myFunction() {
-  if(condition) {
-    myFunction(); 
-  }
-  else {
-    // stop calling recursion
-  }
+function countDown(num) {
+  console.log(num);
+  num--;
+  if(num >= 0) {
+    countDown(num);
+  }; 
 }
 
-myFunction();
+countDown(10);
