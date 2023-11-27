@@ -1,7 +1,14 @@
-// Anonymous functions
+// Recursive Functions
 
-//Anoymous functions in JavaScript, are functions that are not declared with a name. 
+// A recursive function in JavaScript is a function that calls itself 
 
-setTimeout(function(){
-  console.log('Hello, GreatStack');
-}, 2000);
+function myFunction() {
+  if(condition) {
+    myFunction(); 
+  }
+  else {
+    // stop calling recursion
+  }
+}
+
+myFunction();
