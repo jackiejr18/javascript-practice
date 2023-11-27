@@ -1,18 +1,16 @@
-// Function Return 
+// Callback Function
 
-// The return statement can be used to return the value, when the function is called. 
+// A callback is a function passed as an argument to another function.
 
-// The return statement denotes that the function has ended. Any code after return is not executed. 
+// A callback function can run after another function has finished. 
 
-function fn1(x) {
-  function fn2(y) {
-    return x * y; 
-  }
-  return fn2; 
+function display(result) {
+  console.log(result); 
 }
 
-let result = fn1(3); 
+function add(num1, num2, myCallback) {
+  let sum = num1 + num2; 
+  myCallback(sum)
+}
 
-console.log(result); 
-
-console.log(result(2));
+add(10, 20, display)
