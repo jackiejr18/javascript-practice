@@ -2,19 +2,15 @@
 
 // if you want to display a message 100 times, then you can use a loop
 
-//do while loop
+//break / continue
 
-let i = 10;
+//the "break" statement is used to terminate the loop immediately
 
-do {
+
+for (let i = 1; i <= 5; i++) {
+
+  if (i == 3) {
+    break;
+  }
   console.log(i);
-  i++; 
-} while (i <= 5);
-
-
-
-
-
-
-
-
+}
