@@ -14,3 +14,5 @@ function fn1(x) {
 let result = fn1(3); 
 
 console.log(result); 
+
+console.log(result(2));
