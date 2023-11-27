@@ -5,12 +5,15 @@
 //break / continue
 
 //the "break" statement is used to terminate the loop immediately
+/* the "continue" statement is used to skip the current iteration of the loop and the control flow of the program
+goes to the next iteration */
+
 
 
 for (let i = 1; i <= 5; i++) {
 
   if (i == 3) {
-    break;
+    continue;
   }
   console.log(i);
 }
