@@ -16,4 +16,4 @@ function greet(firstName, lastName) {
 
 // greet(200, 100);
 
-greet('Elon'); 
+greet('Elon', 'Musk', 'Mr'); 
