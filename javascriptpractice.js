@@ -2,6 +2,8 @@
 //Functions in JavaScript are reusable blocks of code that can be called from anywhere in your program. 
 
 
-function name(params) {
-  //code to be executed
+function greet() {
+  console.log('Hello, GreatStack');
 }
+
+greet(); 
