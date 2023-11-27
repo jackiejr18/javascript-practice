@@ -11,4 +11,4 @@ function greet(firstName, lastName) {
   console.log('Hello ' + firstName + ' ' + lastName);
 }
 
-greet('Elon', 'Musk');
+greet(200, 100);
