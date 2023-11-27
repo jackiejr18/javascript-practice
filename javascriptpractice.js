@@ -1,11 +1,14 @@
-// Default Parameters
+// Function Return 
 
-// Default parameters in JavaScript are parameters that have a default value. 
+// The return statement can be used to return the value, when the function is called. 
 
-// This means that, if the argument is not passed to the function, the default value will be used. 
+// The return statement denotes that the function has ended. Any code after return is not executed. 
 
-function sum(x, y = 0) {
-  console.log(x + y ); // 50 + 30
+function add(a, b) {
+  return a + b;
+  a*b; // line wont run
 }
 
-sum(50, 30);
+let result = add(10,40); 
+
+console.log('The sum is: ' + result);
