@@ -1,19 +1,11 @@
-// A function is a block of code that performs a specific task
-//Functions in JavaScript are reusable blocks of code that can be called from anywhere in your program. 
+// Default Parameters
 
-// Parameters and Arguements
+// Default parameters in JavaScript are parameters that have a default value. 
 
-// Parameters are the variables that are declared in the function definition
+// This means that, if the argument is not passed to the function, the default value will be used. 
 
-// Arguments are the values that are passed to the function when it is called.
-
-/* We can pass less or more arguments while calling a function, if we pass less arguments then the rest of the
-parameters will become undefined, if you pass more arguments then additional arguments will be ignored */ 
-
-function greet(firstName, lastName) {
-  console.log('Hello ' + firstName + ' ' + lastName);
+function sum(x, y) {
+  console.log(x + y ); // 10 + undefined
 }
 
-// greet(200, 100);
-
-greet('Elon', 'Musk', 'Mr'); 
+sum(10);
