@@ -5,7 +5,7 @@
 // This means that, if the argument is not passed to the function, the default value will be used. 
 
 function sum(x, y = 0) {
-  console.log(x + y ); // 50 + 0
+  console.log(x + y ); // 50 + 30
 }
 
-sum(50);
+sum(50, 30);
