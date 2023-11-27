@@ -7,8 +7,13 @@
 
 // Arguments are the values that are passed to the function when it is called.
 
+/* We can pass less or more arguments while calling a function, if we pass less arguments then the rest of the
+parameters will become undefined, if you pass more arguments then additional arguments will be ignored */ 
+
 function greet(firstName, lastName) {
   console.log('Hello ' + firstName + ' ' + lastName);
 }
 
-greet(200, 100);
+// greet(200, 100);
+
+greet('Elon'); 
