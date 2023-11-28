@@ -4,14 +4,10 @@
 // "key: value" pairs are called properties, key is always stored as string
 // when we declare a function as a value in key:value pair then it is known as Methods
 
-const person = {
-  firstName: 'Elon',
-  lastName: 'Musk',
-  age: 35
-} 
+const person = new Object(); 
 
-// The for...in loop allows you to access each property and value of an object without knowing the specific name of property
+person.firstName = 'Elon';
+person.lastName = 'Musk';
+person.age = 35; 
 
-for(let prop in person) {
-  console.log(prop +':'+ person[prop]);
-}
+console.log(person);
