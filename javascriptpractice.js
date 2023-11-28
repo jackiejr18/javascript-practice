@@ -4,10 +4,12 @@
 // "key: value" pairs are called properties, key is always stored as string
 // when we declare a function as a value in key:value pair then it is known as Methods
 
-const person = new Object(); 
+const person = new Object({
+  firstName: 'Elon',
+  lastName: 'Musk',
+  age: 35
+}); 
 
-person.firstName = 'Elon';
-person.lastName = 'Musk';
-person.age = 35; 
+
 
 console.log(person);
