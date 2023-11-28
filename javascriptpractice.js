@@ -10,6 +10,6 @@ const person = {
   age: 35
 } 
 
-person.firstName = 'Mr.Elon'; 
+person.company = 'Tesla'; 
 
-console.log(person['firstName']);
+console.log(person);
