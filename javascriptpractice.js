@@ -5,9 +5,9 @@
 // when we declare a function as a value in key:value pair then it is known as Methods
 
 const person = {
-  firstName: 'Elon',
+  'first Name': 'Elon',
   lastName: 'Musk',
   age: 35
 } 
 
-console.log(person['age']);
+console.log(person['first Name']);
