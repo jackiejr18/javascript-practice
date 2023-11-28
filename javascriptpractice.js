@@ -12,4 +12,6 @@ const person = {
 
 person.company = 'Tesla'; 
 
+delete person.age; 
+
 console.log(person);
