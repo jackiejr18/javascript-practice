@@ -10,4 +10,8 @@ const person = {
   age: 35
 } 
 
-console.log('age' in person);
+// The for...in loop allows you to access each property and value of an object without knowing the specific name of property
+
+for(let prop in person) {
+  console.log(prop);
+}
