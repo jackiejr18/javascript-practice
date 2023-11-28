@@ -7,11 +7,14 @@
 const person = {
   firstName: 'Elon',
   lastName: 'Musk',
-  age: 35
+  age: 35,
+  address: {
+    street: 'Tesla Road',
+    city: 'Austin',
+    state: 'Texas',
+    country: 'United States',
+    zipCode: '78725'
+  }
 } 
 
-person.company = 'Tesla'; 
-
-delete person.age; 
-
-console.log(person);
+console.log(person.address.city);
