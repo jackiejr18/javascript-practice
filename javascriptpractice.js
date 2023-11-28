@@ -1,13 +1,8 @@
-// Recursive Functions
+//Objects in javaScript
 
-// A recursive function in JavaScript is a function that calls itself 
+// Javascript object is a non-primitive data-type that allows you to store multiple collections of data. 
 
-function countDown(num) {
-  console.log(num);
-  num--;
-  if(num >= 0) {
-    countDown(num);
-  }; 
-}
-
-countDown(10);
+const object_name = {
+  key1 : value1,
+  key2 : value2
+} 
