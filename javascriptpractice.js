@@ -10,4 +10,4 @@ const person = {
   age: 35
 } 
 
-console.log(person.firstName);
+console.log(person.age);
