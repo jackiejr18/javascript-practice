@@ -7,14 +7,7 @@
 const person = {
   firstName: 'Elon',
   lastName: 'Musk',
-  age: 35,
-  address: {
-    street: 'Tesla Road',
-    city: 'Austin',
-    state: 'Texas',
-    country: 'United States',
-    zipCode: '78725'
-  }
+  age: 35
 } 
 
-console.log(person.address.city);
+console.log('age' in person);
