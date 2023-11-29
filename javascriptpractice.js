@@ -2,12 +2,14 @@
 
 // To access the other properties of an object within a method the same object, we can use "this" keyword
 
+// When we use "this" keyword within a method, it refers to the same object
+
 const person = {
   firstName: 'Elon',
   lastName: 'Musk',
-  greet: function() {
-    console.log('Hello ' + this.firstName);
+  getFullName: function() {
+    return this.firstName + " " + this.lastName
   }
 }
 
- person.greet(); 
+console.log(person.getFullName()); 
