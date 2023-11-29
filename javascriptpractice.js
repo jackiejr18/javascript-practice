@@ -5,7 +5,7 @@
 const person = {
   firstName: 'Elon',
   lastName: 'Musk',
-  greet: function greet() {
+  greet: function() {
     console.log('Hello World');
   }
 }
