@@ -1,13 +1,20 @@
-// this keyword 
+// JavaScript, a constructor function is used to create objects. 
 
-// To access the other properties of an object within a method the same object, we can use "this" keyword
+/*
+Constructor function is similar as a regular function but it is good practice to capitilize the first letter
+of your constructor function. */
 
-// When we use "this" keyword within a method, it refers to the same object
+// A constructor function should be called only with "new" operator. 
 
-// if we use "this" keyword alone, or inside a function. then it will refer to the global object, that is "window" object
+// We can use "new" operator to create an Object from a constructor function. 
 
-// When we use "this" key word in the "event" then it will refer to the element that recieve the event
+function Person() {
+  this.firstName = 'Elon',
+  this.lastName = 'Musk'
+}
 
-// "this" is a keyword, it is not a varible so we cant change the value of "this"
+const person1 = new Person(); 
+const person2 = new Person();
 
-console.log(this);
+console.log(person1);
+console.log(person2); 
