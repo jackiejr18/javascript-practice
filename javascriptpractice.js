@@ -1,13 +1,13 @@
-// JavaScript Object Methods
+// this keyword 
 
-// JavaScript method is an object property that contains a function definition. 
+// To access the other properties of an object within a method the same object, we can use "this" keyword
 
 const person = {
   firstName: 'Elon',
   lastName: 'Musk',
-  greet() {
-    console.log('Hello World'); 
+  greet: function() {
+    console.log('Hello ' + this.firstName);
   }
 }
 
-person.greet(); 
+ person.greet(); 
