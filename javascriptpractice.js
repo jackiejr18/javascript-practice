@@ -17,4 +17,8 @@ const person1 = new Person('Elon', 'Musk');
 const person2 = new Person('Bill', 'Gates');
 
 person1.age = 52;
-console.log(person1);
+
+person2.greet = function() {
+  console.log('Hello GreatStack'); 
+}
+person2.greet(); 
