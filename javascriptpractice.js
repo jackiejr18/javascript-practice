@@ -4,12 +4,8 @@
 
 // When we use "this" keyword within a method, it refers to the same object
 
-const person = {
-  firstName: 'Elon',
-  lastName: 'Musk',
-  getFullName: function() {
-    return this.firstName + " " + this.lastName
-  }
-}
+// if we use "this" keyword alone, or inside a function. then it will refer to the global object, that is "window" object
 
-console.log(person.getFullName()); 
+// When we use "this" key word in the "event" then it will refer to the element that recieve the event
+
+console.log(this);
