@@ -1,22 +1,11 @@
-// JavaScript, a constructor function is used to create objects. 
+// JavaScript Object Prototype
 
-/*
-Constructor function is similar as a regular function but it is good practice to capitilize the first letter
-of your constructor function. */
+// Every function and object has its own property called prototype
 
-// A constructor function should be called only with "new" operator. 
+// A prototype itself is also another object. So, the prototype has its own prototyple. this creates a prototype chain
 
-// We can use "new" operator to create an Object from a constructor function. 
-
-function Person(first, last) {
-  this.firstName = first,
-  this.lastName = last,
-  this.getFullName = function() {
-    return this.firstName + " " + this.lastName
-  }
+const person = {
+  name: 'Elon'
 }
 
-const person1 = new Person('Elon', 'Musk');
-const person2 = new Person('Bill', 'Gates'); 
-
-console.log(person1.getFullName()); 
+console.log(person); 
