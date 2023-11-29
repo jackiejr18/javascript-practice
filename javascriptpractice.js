@@ -8,4 +8,6 @@
 
 // When we use "this" key word in the "event" then it will refer to the element that recieve the event
 
+// "this" is a keyword, it is not a varible so we cant change the value of "this"
+
 console.log(this);
