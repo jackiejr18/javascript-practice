@@ -10,15 +10,13 @@ of your constructor function. */
 
 function Person(first, last) {
   this.firstName = first,
-  this.lastName = last
+  this.lastName = last,
+  this.getFullName = function() {
+    return this.firstName + " " + this.lastName
+  }
 }
 
-const person1 = new Person('Elon', 'Musk'); 
-const person2 = new Person('Bill', 'Gates');
+const person1 = new Person('Elon', 'Musk');
+const person2 = new Person('Bill', 'Gates'); 
 
-person1.age = 52;
-
-person2.greet = function() {
-  console.log('Hello GreatStack'); 
-}
-person2.greet(); 
+console.log(person1.getFullName()); 
