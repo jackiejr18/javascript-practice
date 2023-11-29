@@ -5,8 +5,13 @@
 const person = {
   firstName: 'Elon',
   lastName: 'Musk',
-  greet: function() {
-    console.log('Hello World');
-  }
 }
-person.greet(); 
+
+function greet() {
+  console.log('Hello World');
+}
+
+person.greeting = greet;
+
+person.greeting(); 
+console.log(person);
